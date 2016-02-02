@@ -13,7 +13,7 @@ set useragent "Microsoft-CryptoAPI/6.1";
 
 http-get {
 
-    set uri "/oscp/";
+    set uri "/ocsp/";
 
     client {
         header "Accept" "*/*";
@@ -39,7 +39,7 @@ http-get {
 
 http-post {
 
-    set uri "/oscp/a/";
+    set uri "/ocsp/a/";
 
     client {
 
